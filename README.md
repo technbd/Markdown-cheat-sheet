@@ -132,6 +132,16 @@ This is a comments:
 
 
 
+#### Collapsible section of content: 
+
+<details>
+  <summary> Click to expand </summary>
+
+This content will be hidden initially, but will appear when the user clicks "Click to expand".
+
+</details>
+
+
 
 Table:
 
