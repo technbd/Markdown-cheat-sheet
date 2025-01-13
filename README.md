@@ -5,7 +5,7 @@ A Markdown file is a plain text file that uses Markdown formatting syntax to spe
 Here are some of the most commonly used methods for manipulating text in markdown: 
 
 
-Code Highlighting:  
+#### Code Highlighting:  
 
 We can highlight `code` snippets using the three `backticks` (```):
 
@@ -14,7 +14,7 @@ Markdown Highlighting
 ```
 
 
-Heading:
+#### Heading:
 
 ```
 # Heading 1
@@ -27,7 +27,7 @@ Heading:
 ### Heading 3
 
 
-Bold:
+#### Bold:
 
 ```
 **bold text** </br>
@@ -39,7 +39,7 @@ __bold text__
 
 
 
-Italic: 
+#### Italic: 
 
 ```
 *italicized text* </br>
@@ -51,7 +51,7 @@ _italicized text_
 
 
 
-Strikethrough:
+#### Strikethrough:
 
 ```
 ~~Strike through~~
@@ -61,7 +61,7 @@ Strikethrough:
 
 
 
-Text colors:
+#### Text colors:
 
 ```
 Color of <span style="color:red">Markdown</span> text.
@@ -71,7 +71,7 @@ Color of <span style="color:red">Markdown</span> text.
 
 
 
-Ordered List:
+#### Ordered List:
 
 ```
 1. First item
@@ -85,7 +85,7 @@ Ordered List:
 
 
 
-Unordered List:
+#### Unordered List:
 
 ```
 - First item
@@ -99,7 +99,13 @@ Unordered List:
 
 
 
-Task List:
+#### Task List:
+
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
 
 - [x] Write the press release
 - [ ] Update the website
@@ -107,7 +113,7 @@ Task List:
 
 
 
-Buttons:
+#### Buttons:
 
 ```
 <kbd>Ctrl + shift + p</kbd>
@@ -118,7 +124,7 @@ Buttons:
 
 
 
-Comments:
+#### Comments:
 
 ```
 <!--
@@ -134,6 +140,15 @@ This is a comments:
 
 #### Collapsible section of content: 
 
+```
+<details>
+  <summary> Click to expand </summary>
+
+This content will be hidden initially, but will appear when the user clicks "Click to expand".
+
+</details>
+```
+
 <details>
   <summary> Click to expand </summary>
 
@@ -143,7 +158,7 @@ This content will be hidden initially, but will appear when the user clicks "Cli
 
 
 
-Table:
+#### Table:
 
 ```
 | Col1         |      Col2     |  Col3           |
@@ -162,7 +177,7 @@ Table:
 
 
 
-Horizontal Rule:
+#### Horizontal Rule:
 
 ```
 Three or more dashes (---) or asterisks (***): 
@@ -180,7 +195,7 @@ Three or more dashes (---) or asterisks (***):
 
 
 
-Link:
+#### Link:
 
 ```
 [Title_name](https://www.example.com)
@@ -190,7 +205,7 @@ Link:
 
 
 
-Alignments:
+#### Alignments:
 
 ```
 <p align="center">
@@ -204,7 +219,7 @@ Alignments:
 
 
 
-Image:
+#### Image:
 
 ```
 ![alt text](./Markdown_Cheat_Sheet.png)
@@ -214,7 +229,7 @@ Image:
 
 
 
-Alerts:
+#### Alerts:
 ```
 > [!NOTE]
 > Essential details that users should not overlook, even when browsing quickly.
